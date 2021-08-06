@@ -1,3 +1,3 @@
 # Shortened resume 
 
-HTML code of a my shortened CV and some additional things
+HTML code of my shortened CV with some additional things. Preview can be found [here](https://aurimas13.github.io/resume/)
