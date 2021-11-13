@@ -4,8 +4,7 @@
     /* background: #333; */
     font-size: 1.5rem;
     text-align: center;
-}
-
+  }
   .heart {
     fill: red;
     position: relative;
@@ -13,13 +12,11 @@
     width: 20px;
     animation: pulse 1s ease infinite;
   }
-
   @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.3); }
     100% { transform: scale(1); }
   }
-
   h1 {
     font-size: 5.625rem; /* 562.5% */
     /* line-height: 2; */
@@ -54,7 +51,7 @@
   .middle-container {
   }
   .intro {
-    width: 50%;
+    width: 60%;
     margin: auto;
     text-align: auto;
     line-height: 1.5;
@@ -75,48 +72,58 @@
     bottom: 300px;
   }
   .skills-and-history {
-    padding-top: 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   .s-and-h {
     padding-bottom: 50px;
   }
   .skill-row {
-    width: 50%;
+    width: 60rem;
     margin: auto;
+    padding-bottom: 4rem;
   }
-  .skills_picture {
+  .skills-picture {
     float: left;
-    width: 40%;
-    margin-rigth: 10px;
+    width: 25rem;
+    margin-right: 2rem;
+  }
+  .skills-name {
+    margin-right: 0.25rem;
   }
   .center-skills {
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .history {
-    padding-top: 50px;
+    padding-top: 3rem;
+    width: 60rem;
     margin: auto;
+    padding-bottom: 3rem;
   }
   .technology_picture {
     float: right;
-    width: 15%;
-    margin-left: 10px;
+    width: 25rem;
+    margin-left: 2rem;
+  }
+  .history-and-technology {
+    margin-left: 2rem;
   }
   .history-intro {
-    width: 50%;
-    margin: auto;
+    width: 50rem;
+    margin-left: 2rem;
     line-height: 1.5;
-    text-align: auto;
+    text-align: left;
   }
   .contact-me {
-    padding-top: 2.5px;
-    width: 50%;
+    padding-top: 2rem;
+    width: 60%;
     margin: auto;
   }
   .contact-me-intro {
-    padding-top: 25px;
-    padding-bottom: 20px;
-    width: 50%;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    width: 60%;
     margin: auto;
     text-align: auto;
   }
