@@ -1,2 +1,2 @@
-# Personal_website
-Front End project based on posting my enhanced resume.
+# Personal_website - only CV
+<br> Herein you will find the source code for my shortened CV. The end result can be found [here](https://aurimas13.github.io/Personal_website/). </br>
